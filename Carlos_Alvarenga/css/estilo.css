@@ -1,0 +1,206 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Cambria;
+	font-style: italic;
+}
+
+body {
+	background: url("../imagens/fundo.png") repeat-x;
+	margin: 0;
+	padding: 0;
+	font-family: Cambria;
+}
+
+.pagina {
+	width: 800px;
+	margin: 0 auto;
+}
+
+/* CSS TOPO */
+
+
+.topo {
+	width: 100%;
+	height: 230px;
+	background: url("../imagens/fundo_topo.jpg");
+	position: relative;
+}
+
+.logo {
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	left: 680px;
+	top: 120px;
+}
+
+.logo img {
+	max-width: 200px;
+	max-height: 100px;
+}
+
+.redes-sociais {
+	width: 260px;
+	height: 46px;
+	background: rgba(0, 0, 0, 0.65);
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+
+.redes-sociais img {
+	width: 32px;
+	height: 32px;
+	margin: 6px;
+}
+
+/* CSS MENU */
+
+.menu {
+	background: black;
+	background: url("../imagens/menu_base.png");
+	position: relative;
+}
+
+.menu ul {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+}
+
+.menu ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.menu a {
+	text-decoration: none;
+	display: block;
+	color: white;
+	height: 20px;
+	padding: 15px;
+}
+
+.menu a:hover {
+	text-decoration: none;
+	display: block;
+	color: white;
+	height: 20px;
+	padding: 15px;
+	background: url("../imagens/menu_hover.png");
+}
+
+.busca {
+	position: absolute;
+	right: 0px;
+	padding: 10px;
+}
+
+.busca input {
+	border: none;
+	height: 30px;
+	margin: 0px;
+}
+
+.busca input[type=submit] {
+	background: rgb(26, 15, 1);
+	color: white;
+	height: 30px;
+	margin: 0px;
+	border: 2px solid rgb(128, 68, 0);
+}
+
+.busca input[type=submit]:hover {
+	background: rgb(128, 68, 0);
+	color: white;
+	border: 2px solid rgb(26, 15, 1);
+}
+
+/* CSS CORPO */
+
+.corpo {
+	width: 780px;
+	height: 390px;
+	padding: 10px;
+	background: whitesmoke;
+	position: relative;
+}
+
+.corpo h2 {
+	width: 100%;
+	font-size: 17px;
+	text-align: center;
+	border-bottom: 2px solid #90CEA2;
+	margin-bottom: 10px;
+}
+
+.colunaA {
+	width: 520px;
+	margin-right: 10px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	text-align: justify;
+}
+
+.colunaA p {
+	margin-bottom: 10px;
+}
+
+.colunaA img {
+	width: 250px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.colunaB {
+	width: 245px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.subdestaque {
+	width: 245px;
+	height: 160px;
+	margin-bottom: 10px;
+	position: relative;
+	float: left;
+}
+
+.subdestaque img {
+	width: 245px;
+	height: 160px;
+}
+
+.legenda {
+	width: 225px;
+	height: 20px;
+	padding: 10px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background: rgba(0, 0, 0, 0.65);
+	color: white;
+	text-align: center;
+}
+
+.rodape {
+	width: 100%;
+	height: 50px;
+	background: rgb(211, 69, 3);
+	color: whitesmoke;
+	position: relative;
+}
+
+.dados {
+	height: 10px;
+	position: absolute;
+	left: 0;
+	margin: 10px;
+	padding: 10px;
+	border-left: 1px solid black;
+}
